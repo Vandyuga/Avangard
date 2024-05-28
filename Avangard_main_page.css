@@ -1,210 +1,389 @@
-<!DOCTYPE html>
-<html lang="bg">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Спортен комплекс - Avangard</title>
-    <link rel="stylesheet" href="Avangard_main_page.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <div class="wrapper"><a href="#">Помощ</a>
-    <span>|</span>
-    <a href="#">Политика за поверителност</a>
-    <span>|</span>
-    <a href="#">Контакти за връзка</a>
-    <span>|</span>
-    <a href="#">Пратете ни отзив</a></div>
-    <div class="container">
-        <nav>      
-            <div class="logo">
-            <a href="Avangard_main_page.html"><img src="logo white white.png" alt=""></a>
-            </div>
-            
-            <ul>
-                <div class="dropdown">
-                    <li><div class="dropdown">
-                        <span><a href="Avangard_main_page.html">Начало</a></span>
-                        <div class="dropdown-content"><a href="first_steps.html">Първи стъпки</a>
-                        <br><a href="#">Разгряване</a>
-                        <br><a href="#">Упражнения</a>
-                        <br><a href="#">Новини</a>
-                        <br><a href="#">Калориен калкулатор</a>
-                    </div></li>
-                </li></div>
-                <li><div class="dropdown">
-                    <span><a href="#">Тренировки</a></span>
-                    <div class="dropdown-content"><a href="#">Футбол</a>
-                    <br><a href="#">Баскетбол</a>
-                    <br><a href="#">Тенис</a>
-                    <br><a href="#">Плуване</a>
-                    <br><a href="#">Йога</a>
-                </div></li>
-                <li><a href="Avangard_about_us.html">За нас</a></li>
-                <div class="dropdown">
-                    <li><div class="dropdown">
-                        <span><a href="#">Блог</a></span>
-                        <div class="dropdown-content"><a href="Avangard_food.html">Здравословно хранене</a>
-                            <br><a href="#">Хранителни добавки</a>
-                    </div></li>
-                </li></div>
-                <div class="dropdown">
-                    <li><div class="dropdown">
-                        <span><a href="Avangard_prices.html">Цени</a></span>
-                        <div class="dropdown-content">
-                        <a href="Avangard_prices.html">Карти</a><br>
-                        <a href="#">Лични треньори</a>
-                    </div></li>
-                </li></div>
-            </ul>
-            <div class="buttons">
-                <span class="search-icon material-symbols-outlined">search</span>
-                <input class="search-input" type="search" placeholder="Търси...">
-                <a href="Avangard_login_register.html" class="btn">Вход | Регистрация</a>
-            </div>
-        </nav>
-        <div class="navbar">
-            <img src="navbar new 2.png" class="blur">
-            <div class="text-overlay">
-                <h2>Избери</h2>
-                <h2 class="div_p_1">своето</h2>
-                <h2 class="div_p_2">темпо</h2>
-                <button class="cta-button">Започни сега</button>
-            </div>
-        </div>
-    </div>
-    <div class="content">
-        <h1>Спортен комплекс - Avangard</h1><br>
-        <p> Отворихме врати в град Варна, с последно поколение<br>
-            спортни принадлежности и модерни съоръжения за максимално спортно представяне. <br>
-            <br>За любителите на фитнес, футбол, баскетбол, тенис, йога и много други. Ще имате възможност да се запознаете с нашите професионални <br>
-            треньори и действащи спортисти</p>    
-        </div>
-    </div>
-    <div class="box">
-        <ul class="slider">
-            <li><img src="Greenbelt Sportsplex - BuilderGuru.jpg" alt=""></li>
-            <li><img src="pexels-heyho-7031705.jpg" alt=""></li>
-            <li><img src="download (7).jpg" alt=""></li>  
-        </ul>
-    </div>
-    <div class="uslugi">
-        <div class="what uslugi">
-            <div class="rectangle">
-                <div class="flex rectangle">
-                <i class="fa-regular fa-heart"></i>
-                <div class="vline"></div>
-                <div class="text.why1">
-                    <span><p>Тренирайте неограничено <br>за целия ден</p></span>
-                </div>
-                </div>
-            </div>
-            <div class="rectangle">
-                <div class="flex rectangle">
-                <i class="fa-solid fa-medal"></i>
-                <div class="vline"></div>
-                
-                <div class="text.why2">
-                    <span><p>Участвайте на професионални <br>спортни събития</p></span>
-                </div>
-                </div>
-            </div>
-            <div class="rectangle">
-                <div class="flex rectangle">
-                <i class="fa-regular fa-star"></i>
-                <div class="vline"></div>
-                <div class="text.why3">
-                    <span><p>Възползвайте се от  <br>качествено оборудване</p></span>
-                </div>
-                </div>
-            </div>
-            <div class="rectangle">
-                <div class="flex rectangle">
-                <i class="fa-solid fa-spa"></i>
-                <div class="vline"></div>
-                <div class="text why 4">
-                    <span id="raz"><p>Разпуснете</p></span>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="partners"><br><br>
-        <p>Със съдействието на:</p>
-        <div class="partners-img">
-            <img class="multisport-" src="Multisport-black-removebg-preview.png" alt="Multisport">
-            <img class="V-logo" src="Varna-black-removebg-preview.png" alt="Община Варна">
-            <img class="silabg-white" src="silabg-white-removebg-preview.png" alt="Sila.bg">
-        </div>
-        <hr class="short">
-    </div>
-    <footer>
-        <div class="footer1">
-            <div class="rab.vreme">
-                <h3>Работно време</h3>
-                <hr class="hr-long"/>
-                <div class="grafik">
-                    <ul>
-                        <li class="sedmica">
-                            Понеделник
-                            <span class="right"> 6:30 - 21:30 </span>
-                        </li>
-                        <li class="sedmica">
-                            Вторник
-                            <span class="right"> 6:30 - 21:30 </span>
-                        </li>
-                        <li class="sedmica">
-                            Сряда
-                            <span class="right"> 6:30 - 21:30 </span>
-                        </li>
-                        <li class="sedmica">
-                            Четвъртък
-                            <span class="right"> 6:30 - 21:30 </span>
-                        </li>
-                        <li class="sedmica">
-                            Петък
-                            <span class="right"> 6:30 - 21:30 </span>
-                        </li>
-                        <li class="sedmica">
-                            Събота
-                            <span class="right"> 10:30 - 18:30 </span>
-                        </li>
-                        <li class="sedmica">
-                            Неделя
-                            <span class="right"> 10:30 - 18:30 </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer2">
-            <h3>Контакти</h3>
-          <hr class="hr-long"/>
-          <address>
-            <p>Телефон: +359 123 456 789</p>
-            <p>Имейл: info@avangard.com</p>
-          </address><br>
-          &nbsp;&nbsp;&nbsp;
-          <div class="socialni">
-            <h3>Последвайте ни</h3>
-            <hr class="hr-long"/>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-dribbble"></a>
-            <a href="#" class="fa fa-youtube"></a>
-          </div>
-          <div class="hyperlink"></div>
-        </div>
-        <div class="footer3">
-            <h3>Къде да ни намерите</h3>
-            <hr class="hr-long"/>
-            <div class="col-lg-8 mb-4">  
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.020427338839!2d27.921026076512625!3d43.20906088104276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4540939dfa6d5%3A0x3d401ef3c09a59bf!2z0JjQutC-0L3QvtC80LjRh9C10YHQutC4INGD0L3QuNCy0LXRgNGB0LjRgtC10YIgLSDQktCw0YDQvdCw!5e0!3m2!1sbg!2sbg!4v1716640698787!5m2!1sbg!2sbg" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
-          </div>
-        </div>
-      </footer>
-</body>
-</html>
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    color: #fff;
+}
+body
+{
+   background-color: #000;
+}
+
+.wrapper a {
+   color: #000;
+   font-size: 10px;
+   font-weight: bold;
+   display: inline-block;
+   text-decoration: none;
+   padding: 4px;
+}
+.wrapper a:hover 
+{
+   color: #fff;
+}
+.wrapper {
+   padding: 5px;
+   background-color: #E05353;
+}
+.container {
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   padding-top: 10px;
+   padding-bottom: 10px; 
+   padding-left: 8%;
+   padding-right: 8%;
+   position: relative;  
+}
+span {
+   color: #000;
+   font-size: 10px;
+}
+.search-icon {
+   color: #fff;
+   width: 25px;
+}
+.search-input {
+   padding: 9px 25px;
+   border-radius: 0px 6px 6px;
+   margin-right: 12px;
+   border: none;
+}
+nav {
+   padding: 10px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+nav ul li {
+   display: inline-block;
+   list-style: none;
+   margin: 10px 15px;
+}
+nav ul li a {
+   text-decoration: none;
+   transition: 0.5s;
+}
+nav ul li a:hover {
+   color: #E05353;
+} 
+.btn {
+   background: white;
+   border-radius: 0px 6px 0px;
+   padding: 9px 25px;
+   text-decoration: none;
+   transition: 0.5s;
+   font-size: 16px;
+   color: black;
+   border: none;
+}
+.btn:hover {
+   background: #E05353;
+   color: white;
+   transition: 0.5s;
+}
+a {
+   color: #fff;
+}
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.navbar img {
+   max-width: 119%;
+   margin-top: 30px;
+   position: relative;
+}
+.logo img {
+   width: 70%;
+}
+.content p {  
+   font-size: 20px;
+   color: #fff;
+   padding: 10px; 
+}
+.content h2 {
+   font-size: 50px;
+   color: #fff;
+   font-weight: lighter;
+}
+.content {
+   background-color: #34363b;
+   text-align: center;
+   font-size: large;
+   margin-top: 50px;
+   padding: 40px;
+   margin-bottom: 50px;
+   text-shadow: 1px 1px 2px black;
+}
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+.dropdown-content {
+   display: none;
+   position: absolute;
+   min-width: 170px;
+   padding: 12px 16px;
+   z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+   display: block;
+   background-color: #E05353;
+}
+.dropdown span {
+   font-size: 16px;
+}
+.dropdown-content a:hover { 
+   color: #000;
+}
+.container {
+   position: relative;
+   width: 100%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 51%;
+    left: 6%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: white;
+}
+
+.text-overlay h2 {
+    font-size: 70px;
+    margin: 0;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.text-overlay .div_p_1 {
+    font-size: 70px;
+    margin-top: -15px;
+    margin-left: 80px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.text-overlay .div_p_2 {
+    font-size: 70px;
+    margin-top: -15px;
+    margin-left: 180px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.cta-button {
+    background-color: #E05353; 
+    border: none;
+    color: white;
+    box-shadow : 1px 1px 1px black;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 80px;
+    cursor: pointer;
+    border-radius: 0px 6px 0px;
+    transition: 0.5s;
+    border-color: #fff;
+    
+}
+.cta-button:hover {
+    background-color: #fff; 
+    color: #000;
+}
+.container.form
+{
+   display: block;
+}
+.grafik
+{
+   display: flex;
+   justify-content: space-between;
+}
+.sedmica
+{
+   
+   list-style-type: none;
+   text-align: left;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.grafik li .right
+{
+   color: #fff;
+   font-weight: bold;
+   font-size: 13px;
+   padding: 8px 0;
+   
+}
+.sedmica span.right
+{
+   margin-left: 50px;
+}
+.images
+{
+   display: flex;
+   width: 50%;
+   height: 100%;
+}
+.footer1 {
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+	padding-left: 50px;	
+}
+.footer2, .footer3 {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+
+.hr-long {
+	margin-right: 80px;
+   margin: 10px;
+}
+footer
+{
+   background-color: #34363b;
+   padding-top: 25px;
+}
+.fa {
+   padding: 20px;
+   width: 60px;
+   text-align: center;
+   text-decoration: none;
+   margin-left: 10px;
+ }
+ 
+ .fa:hover {
+     opacity: 0.7;
+ }
+ .fa-facebook {
+   background: #3B5998;
+   color: white;
+ }
+ .fa-instagram {
+   background: #F56040;
+   color: white;
+ }
+ .fa-dribbble {
+   background: #ea4c89;
+   color: white;
+ }
+ .fa-youtube {
+   background: #bb0000;
+   color: white;
+ }
+ .box
+ {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 50px;
+ }
+ .box img
+ {
+   max-width: 500px;
+   padding: 10px;
+ }
+ .slider
+ {
+   display: flex;
+ }
+ .slider li
+ {
+   list-style-type: none;
+ }
+ .rectangle {
+	display: inline-block;
+	border: 2px solid #ccc;
+	width: 20%;
+	height: 150px;
+	margin: 40px;
+	padding: 10px;
+	margin-bottom: 50px;  
+}
+.fa-heart, .fa-medal, .fa-star, .fa-spa
+{
+   font-size: 48px;
+   
+}
+.vline
+{
+   border-left: 2px solid #E05353;
+   height: 48px;
+   margin-left: 16px;
+   padding: 5px;
+}
+.flex.rectangle 
+{
+   display: flex;
+   border-style: none;
+   margin: 0;
+   margin-top: 30px;
+   margin-left: 8px;
+}
+span p
+{
+   display: flex;
+   font-size: 16px;
+   white-space: nowrap;
+   margin-top: 5px;
+}
+.partners
+{
+   margin-top: 50px;
+   margin-bottom: -80px;
+   
+}
+.partners-img
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 300px;
+}
+.V-logo
+{
+   width: 20%;
+  width: 10%;
+  
+}
+.silabg-white
+{
+   width: 20%;
+   height: auto;
+   
+}
+.multisport-
+{
+   width: 20%;
+   height: 300px;
+}
+.partners p
+{
+   font-size: 20px;
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: -50px;
+   font-weight: bold;
+}
+.partners
+{
+   margin-top: -80px;
+}
+.short
+{
+   color: #fff;
+   margin-bottom: 8%;
+   margin-top: -70px;
+   width: 20%;
+   margin-left: 40%;
+}
